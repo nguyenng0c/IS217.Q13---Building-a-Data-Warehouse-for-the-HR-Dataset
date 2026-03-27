@@ -1,0 +1,38 @@
+## --- Visual Studio ---
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+## --- Build/Temporary Files (SSIS/SSAS/SSRS) ---
+**/obj/
+**/bin/
+**/Development/
+*.ispac
+*.asdatabase
+*.deploymentoptions
+*.deploymenttargets
+*.configsettings
+*.dwproj.user
+*.dtproj.user
+*.rdl.data
+
+## --- Databases (Tránh đưa file DB nặng lên Git) ---
+*.mdf
+*.ldf
+*.ndf
+
+## --- Python / Jupyter Notebook ---
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+
+## --- Office / Temp files ---
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+## --- Video & Large Files (Nếu bạn muốn giữ lại thì xóa dòng này) ---
+*.mp4
+*.avi
+*.mkv
